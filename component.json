@@ -1,0 +1,14 @@
+{
+  "name": "dom-parser",
+  "repo": "yuehu/dom-parser",
+  "description": "Browser compatible document parser.",
+  "version": "0.0.1",
+  "keywords": [],
+  "dependencies": {},
+  "development": {},
+  "license": "MIT",
+  "main": "index.js",
+  "scripts": [
+    "index.js"
+  ]
+}
