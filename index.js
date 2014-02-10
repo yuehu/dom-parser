@@ -38,8 +38,9 @@ function getParser() {
     ref = useDom(snippet);
     return useDom;
   } finally {
-    if (ref && ref.body && ref.body.childNodes.length === 1) return;
-    return useWrite;
+    if (!(ref && ref.body && ref.body.childNodes.length === 1)) {
+      return useWrite;
+    }
   }
 }
 
